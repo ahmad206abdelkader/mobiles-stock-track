@@ -1,0 +1,91 @@
+*{
+    margin:  0;
+    padding :0;
+}
+body{
+    background-image: url("https://www.dnnsoftware.com/Portals/0/Images/hero-background-4-1.jpg?ver=2017-08-17-190903-737");
+    
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.crud{
+width: 80%;
+margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 14px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #0c0b0c;
+   margin: 4px 0;
+   border-radius: 4px;
+   padding: 4px;
+   color: white;
+   transition: 0.5s;
+}
+input:focus{
+    background: #000;
+    margin:8px 0 ;
+    padding:6px ;
+
+    
+}
+
+.price input{
+width: 20%;
+}
+#total{
+    background:#8df5f1;
+    padding: 8px 4px;
+    border-radius: 4px;
+    color: #000;
+}
+#total::before{
+    content: 'Total:';
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px 100px / 120px;
+    background: #0b2a6f;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #041332;
+    height: 33px;
+    letter-spacing:1px;
+}
+button:focus{
+    background-color: #000;
+    height: 33px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+#deleteAll{
+margin: 12px 0;
+}
