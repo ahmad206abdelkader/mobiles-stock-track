@@ -1,0 +1,135 @@
+
+body{
+    background-image: url("https://www.dnnsoftware.com/Portals/0/Images/hero-background-4-1.jpg?ver=2017-08-17-190903-737");
+    
+}
+
+
+.mid{
+    padding: 0;
+    
+}
+.airpods{
+
+    background-image: url("https://imgs.search.brave.com/Thcqd5pf1206w9nPO3yQ0qqApjGabdZTiDFaIX50Ttg/rs:fit:1170:660:1/g:ce/aHR0cHM6Ly9nZWVr/Y3VsdHVyZS5jby93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/My9hcHBsZS1haXJw/b2RzLmpwZw");
+    text-align: center;
+    padding: 2rem;
+    display: block;
+    align-items: cemter;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+
+.phone{
+    background-image: url("https://www.phoneswiki.com/wp-content/uploads/2020/09/iPhone-12.jpg");
+    text-align: center;
+    padding: 2rem;
+    display: block;
+    align-items: cemter;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+   
+}
+.tablet{
+    text-align: center;
+    padding: 2rem;
+    display: block;
+    align-items: cemter;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+    background-image: url("https://datacdn.btimesonline.com/data/images/full/116216/white-ipad.jpg");
+}
+.watch{
+    text-align: center;
+    padding: 2rem;
+    display: block;
+    align-items: cemter;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+    background-image: url("https://techdissected.com/wp-content/uploads/2016/03/Huawei-Smartwatch-Featured-Image.jpg");
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  * {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  a{
+    color: wheat;
+      padding-top: 12px;
+      padding-left: 7px;
+      font-family: system-ui;
+  }
+  html {
+    font-size: 55%;
+    overflow-x: hidden;
+  }
+  h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100rem;
+  }
+  h3{
+    color: rgb(7, 19, 187);
+    font-size: 40px;
+    text-shadow: 40px;
+  }
+  h4{
+    font-size: 20px;
+  }
+
+  .end{
+    border-radius: 2rem black;
+  }
+  .comp{
+    
+    margin-left:100rem;
+    margin-top: 10rem;
+  }
